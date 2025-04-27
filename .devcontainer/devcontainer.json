@@ -1,0 +1,15 @@
+{
+    "name": "Motley Fool Portfolio Dev",
+    "image": "mcr.microsoft.com/devcontainers/python:3.11",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-python.python",
+                "mechatroner.rainbow-csv"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+}
